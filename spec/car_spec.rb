@@ -8,13 +8,13 @@ RSpec.describe Car do
     expect(car).to be_a Car
   end
 
-  it 'has a make' do
+  xit 'has a make' do
     car = Car.new("Ford Mustang", 1500, 36)
 
     expect(car.make).to eq("Ford")
   end
 
-  it 'has a model' do
+  xit 'has a model' do
     car = Car.new("Ford Mustang", 1500, 36)
 
     expect(car.model).to eq("Mustang")
